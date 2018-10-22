@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/topography.png"); 
+    background-size: 30%;
+    background-repeat:repeat;
+    /* width:960px; */
+}
+#box{
+    width:100%;
+    height:65px;
+    background-color: #ffffff;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+#contentspace{
+    /* align-content:center; */
+    background-color: rgba(100, 170, 167, 0.74);
+    padding: 10%;
+    width:960px;
+    height:375px;
+    margin-top:50px;
+    position:absolute;
+    Left: 125px;
+}
+#name{
+    text-align: center;
+    background-color: rgb(74,170,165);
+    padding: 13px;
+    font-size: 35px;
+    width: 200px;
+    Position: relative;
+    left:125px;
+}
+#ethanrocks{
+    float: left;
+    height: 350px;
+}
+#pagetitle{
+    font-size:24px;
+    position: relative;
+    Top:-100px;
+    left:-220px;
+    color: rgb(74,170,165);
+    border-bottom-color: #E2E2E2;
+    border-bottom-width: 30px;
+}
+.links{
+    text-align: right;
+    padding-bottom:10px;
+    position:relative;
+    right:100px;
+    /* background: #FFFFFF; */
+    font-size: 24px;
+    top:-40px;
+    right:125px;
+    
+}
+#about{
+    position: relative;
+    float:right;
+}
+#portfolio{
+    position: relative;
+    float: right;
+}
+#contact{
+    position: relative;
+    float: right;
+}
+#paragraph1{
+    padding: 0px 0px 0px 20px;
+    margin-left: 20px;
+    float: unset;
+    position:relative;
+    top:-100px;
+    left: 20px;
+    font-size: 18px;
+   
+}
