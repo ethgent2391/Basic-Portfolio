@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/topography.png"); 
+    background-image: url("../images/swirl_pattern.png"); 
     background-size: 30%;
     background-repeat:repeat;
     /* width:960px; */
@@ -16,13 +16,14 @@ body {
 }
 #contentspace{
     /* align-content:center; */
-    background-color: rgba(100, 170, 167, 0.74);
+    background-color: #ffffff;
     padding: 10%;
     width:960px;
     height:375px;
-    margin-top:50px;
+    margin-top:59px;
     position:absolute;
     Left: 125px;
+    top:50px;
 }
 #name{
     text-align: center;
@@ -47,6 +48,8 @@ body {
     left:50px;
     color: rgb(74,170,165);
     border-bottom:2px solid #666666;
+    height: 40px;
+    width: 800px;
 }
 .links{
     text-align: right;
@@ -62,14 +65,22 @@ body {
 #about{
     position: relative;
     float:right;
+    border-right:1px solid #666666;
+    padding-right: 10px;
 }
 #portfolio{
     position: relative;
     float: right;
+    border-right:1px solid #666666;
+    padding-left:10px;
+    padding-right:10px;
 }
 #contact{
     position: relative;
     float: right;
+    border-right:1px solid #666666;
+    padding-left:10px;
+    padding-right:10px;
 }
 #paragraph1{
     padding: 0px 0px 0px 20px;
