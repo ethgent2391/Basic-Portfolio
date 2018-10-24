@@ -15,21 +15,22 @@ body {
     
 }
 #contentspace{
-    /* align-content:center; */
+    align-content:center;
     background-color: #ffffff;
     padding: 10%;
     width:960px;
-    height:375px;
     margin-top:59px;
     position:absolute;
     Left: 125px;
     top:50px;
+    flex-direction: column;
 }
 #name{
     text-align: center;
     background-color: rgb(74,170,165);
     padding: 13px;
     font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 200px;
     Position: relative;
     left:125px;
@@ -43,6 +44,7 @@ body {
 }
 #pagetitle{
     font-size:24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     Top:-100px;
     left:50px;
@@ -53,10 +55,10 @@ body {
 }
 .links{
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif
     padding-bottom:10px;
     position:relative;
     right:100px;
-    /* background: #FFFFFF; */
     font-size: 24px;
     top:-40px;
     right:125px;
@@ -83,6 +85,7 @@ body {
     padding-right:10px;
 }
 #paragraph1{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px 0px 0px 20px;
     margin-left: 20px;
     float: unset;
@@ -91,4 +94,12 @@ body {
     left: 20px;
     font-size: 18px;
    
+}
+.portpics{
+    height:50;
+    width:50;
+    columns: 2;
+}
+#placeimg{
+    margin:30px;
 }
