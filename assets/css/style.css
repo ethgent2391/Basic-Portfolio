@@ -2,7 +2,7 @@ body {
     background-image: url("../images/swirl_pattern.png"); 
     background-size: 30%;
     background-repeat:repeat;
-    /* width:960px; */
+    
 }
 #box{
     width:100%;
