@@ -11,19 +11,30 @@
     <body>
         
         
-        <div id="box">
+        <nav id="box">
                 <div id="name">Ethan Gent</div>
             <div class="links">
                 <div id="contact"><a href="./contact.html">Contact</a></div>
                 <div id="portfolio"><a href="./portfolio.html">Portfolio</a></div>
                 <div id="about"><a href="./index.html">About</a></div>
-        </div>
+            </div>
+        </nav>
             <div id="contentspace">
                 <div id="pagetitle">
                     <h2>Contact:</h2>
                 </div>
-                
+                <div class="cform">
+                    <form action="action_page.php">
+                        <label for="formname">Name:</label>
+                            <input type="text" id="formname" name="formname" placeholder="Your Name...">
+                        <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="noreply@gmail.com">
+                        <label for="message">Message:</label>
+                            <input type="text" id="message" name="message" placeholder="Write your message here...">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
-        </div>
+        <footer id="footer">Copyright &copy</footer>
     </body>
 </html>

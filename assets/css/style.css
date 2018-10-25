@@ -54,9 +54,9 @@ body {
     width: 800px;
 }
 .links{
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif
-    padding-bottom:10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
     position:relative;
     right:100px;
     font-size: 24px;
@@ -96,10 +96,59 @@ body {
    
 }
 .portpics{
-    height:50;
-    width:50;
+    height:150;
+    width:150;
     columns: 2;
+    
 }
 #placeimg{
-    margin:30px;
+    margin:10px;
+    position: relative;
+
+}
+#labels{
+    background-color:#4AAAA5;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height:30px;
+    width: 200px;
+    top:-40px;
+    text-align: center;
+}
+#footer{
+    /* height: 50px; */
+    width: 110%;
+    text-align: center;
+    padding:15px;
+    font-size: 20px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0px;
+}
+.cform{
+}
+input[type=text], select, textarea {
+    widows: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+input[type=submit] {
+    background-color:#4AAAA5;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+#formname{
+    width: 560px;
+}
+#email{
+    width: 560px;
+}
+#message{
+    width: 560px;
+    height: 90px;
 }
