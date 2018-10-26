@@ -111,11 +111,13 @@ body {
 }
 #labels{
     background-color:#4AAAA5;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top:10px;
     position: relative;
     height:30px;
     width: 200px;
-    top:-40px;
+    top:-60px;
     text-align: center;
 }
 #footer{
