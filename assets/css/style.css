@@ -11,12 +11,13 @@ body {
     position: absolute;
     top:0px;
     left:0px;
-    border-bottom:1px solid #666666;
+    border-bottom:1px solid #cccccc;
     
 }
 #contentspace{
     align-content:center;
     background-color: #ffffff;
+    border: 1px solid #dddddd;
     padding: 10%;
     width:960px;
     margin-top:59px;
